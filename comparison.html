@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+  <head>
+        <meta charset="UTF-8">
+        <title>Visualizations</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="styles.css">
+    
+  </head>
+<body>
+
+        <nav class="navbar navbar-default">
+                <div class="container-fluid">
+                      <!-- Brand and toggle get grouped for better mobile display -->
+                      <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                     
+                      </button>
+                        <a style="color:white" class="navbar-brand" href="index.html">
+                            Lattitude
+                        </a>
+                      </div>
+                
+                      <!-- Collect the nav links, forms, and other content for toggling -->
+                      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                      <ul class="nav navbar-nav navbar-right">
+                          <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true">
+                            Plots
+                            <span class="caret"></span></a> 
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                              <li class="dropdown-item"><a  href="maxtemp.html">Max temperature</a></li>
+                              <li class="dropdown-item"><a  href="humidity.html">Humidity</a></li>
+                              <li class="dropdown-item"><a  href="cloudiness.html">Cloudiness</a></li>
+                              <li class="dropdown-item"><a href="windspeed.html">Wind speed</a></li>
+                            </ul>
+                          </li>
+                          <li><a href="comparison.html">Comparison</a></li>
+                          <li><a href="data.html">Data</a></li>
+                        </ul>
+                    <!-- /.navbar-collapse -->
+                    </div>
+                <!-- /.container-fluid -->    
+                </div>
+            </nav>
+        
+<div class="container">
+    <div class="row">  
+        <div class="jumbotron">        
+                <h3>Visualizations</h3>
+                <hr>   
+                <p>Click any plot to get an in depth analysis.</p>
+                <div class="container">
+                <div class="col-md-6">
+                    <div class="caption">
+                        <h4>Cloudiness</h4>
+                        <a href="cloudiness.html" class="thumbnail">
+                          <img src="figures/WeatherPyCloudiness.png" class="img-fluid" alt="Responsive image">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="caption">
+                        <h4>Humidity</h4>
+                        <a href="humidity.html" class="thumbnail">
+                          <img src="figures/WeatherPyHumidity.png" class="img-fluid" alt="Responsive image">
+                        </a>
+                    </div>    
+                </div>
+                <div class="col-md-6">
+                    <div class="caption">
+                        <h4>Wind Speed</h4>
+                        <a href="windspeed.html" class="thumbnail">
+                            <img src="figures/WeatherPyWindspeed.png" class="img-fluid" alt="Responsive image">     
+                        </a>
+                    </div>    
+                </div>
+                <div class="col-md-6">
+                    <div class="caption">
+                        <h4>Max Temperature</h4>
+                        <a href="maxtemp.html" class="thumbnail">
+                            <img src="figures/WeatherPyTemperature.png" class="img-fluid" alt="Responsive image">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<!-- Include all compiled plugins -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<footer class="row">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+            <p class="panel-title"></p>
+          </div>    
+          <div class="panel-body">
+                <p class="text-center">Copyright Coding BootCamp 2018</p>
+           </div>
+        </div>
+</footer>      
+
+</body>
+</html>
